@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Bảo Vệ Môi Trường Là Gì? Các Biện Pháp Bảo Vệ Môi Trường</h1>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Bảo vệ môi trường</h2>
+      <h5>Chúng tôi là tổ chức phi lợi nhuận Việt Nam, chính thức hoạt động từ năm 2006 nhằm thúc đẩy các sáng kiến dựa vào cộng đồng nhằm bảo tồn di sản thiên nhiên của Việt Nam và thúc đẩy phát triển bền vững.</h5>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn-AOXKs8RaGm5c3145fQJeUZw5Pn_tDT2fQ&s.jpg" width="450px" height="290px">
+      <p>Ô nhiễm môi trường đang diễn ra ở mọi nơi trên thế giới, từ các thành phố lớn đến những vùng nông thôn. Bầu không khí đầy khói bụi, nguồn nước ô nhiễm bởi chất thải công nghiệp và sinh hoạt, hay những bãi rác khổng lồ không được xử lý kịp thời là những hình ảnh phổ biến. Điều này không chỉ ảnh hưởng đến môi trường tự nhiên mà còn đe dọa sức khỏe và chất lượng sống của mọi người.</p>
+    </div>
+    <div class="card">
+      <h2>Ý NGHĨA CỦA BẢO VỆ MÔI TRƯỜNG</h2>
+      <h5></h5>
+        <img src="https://images.hdgmvietnam.com/images/admin/upload/image/bao-ve-moi-truong.jpg" width="450px" height="290px">
+      <p>Môi trường rất quan trọng đối với sự phát triển tồn tại của con người và các sinh vật khác. Chính vì vậy, bảo vệ môi trường chính là bảo vệ sự sống của con người. Môi trường có trong sạch thì không khí chúng ta thở mới trong lành, nguồn nước chúng ta sử dụng mới an toàn, đất đai chúng ta canh tác mới màu mỡ</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>NGUYÊN NHÂN</h2>
+      <img src="https://maylocnuocusa.com.vn/wp-content/uploads/2022/05/hau-qua-cua-o-nhiem-moi-truong-3.jpg" width="200" height="200">
+      <p>Chúng là nguyên nhân chính gây ra các bệnh hiểm nghèo, thiên tai (bão, lũ lụt, hạn hán…), và ảnh hưởng nghiêm trọng đến đa dạng sinh học, sự cân bằng của hệ sinh thái, biến đổi khí hậu, suy giảm, cạn kiệt nguồn tài nguyên</p>
+    </div>
+    <div class="card">
+      <h3>HẬU QUẢ</h3>
+      <img src="https://eco248.com/public/uploads/tin-tuc-eco/hau-qua-cua-o-nhiem-moi-truong.jpg" width="250" height="150">
+    </div>
+    <div class="card">
+      <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
+      <p>SĐT:090XXXXXXX</p>
+      <P>ZALO:070XXXXXXX</P>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>NHÓM</h2>
+  <h4>NG Đức Huy Phong 12A14 ,
+    NG Thái Thiện 12A14,
+    Bùi Dương Minh Trân 12A14
+  </h4>
+ 
+</div>
+
+</body>
+</html>
+
+
